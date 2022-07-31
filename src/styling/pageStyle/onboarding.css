@@ -1,0 +1,41 @@
+.container-onboarding{
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #111847;
+    border-radius: 50px;
+}
+
+
+.img-tenisIcon{
+    position: absolute;
+    width: 139.66px;
+    height: 90px;
+    left: 117px;
+    top: 342px;
+
+}
+
+.img-loading{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 167px;
+    top: 611px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@keyframes spin {
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
